@@ -1,0 +1,125 @@
+.main{
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column; 
+    min-height: 30%;
+}
+
+.main__title{
+    color: #FFFFFF;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 54px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 1;
+    text-align: left;
+    width: 65%;
+}
+
+.main__quote{
+    margin-left: 0;
+    margin-top: 40px;
+}
+
+.main__quote-text {
+    color: #FFFFFF;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+    text-align: left;
+    width: 57.65%;
+}
+
+.main__quote-author {
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 1.5;
+    margin-top: 10px;
+    text-align: right;
+    width: 57.65%;
+}
+
+.main__text{
+    color: #FFFFFF;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.63;
+    margin-top: 75px;
+    text-align: left;
+    width: 56.40%;
+}
+
+@media screen and (max-width: 1024px) {
+     .main {
+        min-height: 33%;
+    }
+
+    .main__title {
+        font-size: 45px;
+        line-height: 1.08;
+        margin: 0 37px 0 24px;
+        width: 92%;
+    }
+
+    .main__quote{
+        margin: 50px 0 0 0;
+    }
+
+    .main__quote-text{
+        line-height: 1.41;
+        margin: 0 24px 0 24px;
+        width: 94%;
+    }
+
+    .main__quote-author{
+        line-height: 1.41;
+        width: 94%;
+    }
+
+    .main__text{
+        line-height: 1.63;
+        margin: 32px 24px 88px 24px;
+        width: 94%;
+    }
+}
+
+@media screen and (max-width:544px) {
+    .main{
+        min-height: 60.5%;
+    }
+
+    .main__title{
+        font-size: 32px;
+        line-height: 1.9;
+        margin: 64px 16px 0;
+        width: 90%;
+    }
+
+    .main__quote{
+        margin: 40px 16px 0;
+    }
+
+    .main__quote-text{
+        margin: 0 16px 0;
+        width: 90%;
+    }
+
+    .main__quote-author{
+        margin: 10px 16px 0;
+        width: 90%;
+    }
+
+    .main__text{
+        margin: 32px 16px 0;
+        width: 90%;
+    }
+}

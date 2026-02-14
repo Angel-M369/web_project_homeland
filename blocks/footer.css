@@ -1,0 +1,32 @@
+.footer {
+  margin-bottom: 24px;
+  margin-top: 92px;
+}
+
+.footer__copyright {
+  color: #ffffff;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.14;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin: 0;
+  }
+
+  .footer__copyright {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .footer__copyright {
+    margin: 64px 63px 0;
+    padding: 0 0 24px;
+    width: 60.6%;
+  }
+}
