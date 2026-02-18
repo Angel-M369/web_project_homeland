@@ -1,0 +1,30 @@
+/* ==========================================================================
+   CONTENT BLOCK - Main container
+   ========================================================================== */
+
+/* Main page container with flexbox layout */
+.content {
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', Arial, sans-serif;
+    letter-spacing: 0;
+    margin: 0 12% 0 0;  /* Right margin for desktop layout */
+    min-height: 30%;
+}
+
+/* Tablet breakpoint - adjust container height */
+@media screen and (max-width: 1024px) {
+    .content {
+        min-height: 33%;
+    }
+}
+
+/* Mobile breakpoint - full width layout */
+@media screen and (max-width: 544px) {
+    .content {
+        margin: 0;  /* Remove margins for mobile */
+        min-height: 60.5%;
+    }
+}

@@ -1,8 +1,14 @@
+/* ==========================================================================
+   FOOTER BLOCK
+   ========================================================================== */
+
+/* Footer container - Main footer section with spacing */
 .footer {
   margin-bottom: 24px;
   margin-top: 92px;
 }
 
+/* Footer copyright text - Centered copyright information */
 .footer__copyright {
   color: #ffffff;
   font-family: "Inter", Arial, sans-serif;
@@ -13,6 +19,11 @@
   text-align: center;
 }
 
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+
+/* Tablet layout - 1024px and below */
 @media screen and (max-width: 1024px) {
   .footer {
     margin: 0;
@@ -23,6 +34,7 @@
   }
 }
 
+/* Mobile layout - 544px and below */
 @media screen and (max-width: 544px) {
   .footer__copyright {
     margin: 64px 63px 0;
